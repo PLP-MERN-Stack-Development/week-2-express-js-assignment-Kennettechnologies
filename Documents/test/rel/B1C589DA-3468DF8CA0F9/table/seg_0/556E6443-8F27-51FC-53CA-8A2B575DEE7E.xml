@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="556E6443-8F27-51FC-53CA-8A2B575DEE7E" name="sales">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-21 10:51:16 UTC</createdTime>
+<generatorID>11E89A62-0C2A-8F7F-C6C1-DD435A4E6A0B</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SalesID" id="5E68DFA5-8F3D-B01C-CF1E-86FEC0B0522E">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-21 10:51:16 UTC</createdTime>
+<generatorID>05A97495-471D-BE12-D892-EE1A4A62B713</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustomerID" id="12E9838D-D910-B244-CDF7-952B6AD5ADFF">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-21 10:51:16 UTC</createdTime>
+<generatorID>80874109-1E11-7F0F-71FC-B9F4804F2777</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductID" id="33573C08-28F4-156B-95B1-D65BDCF897B9">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-21 10:51:16 UTC</createdTime>
+<generatorID>5FCC64C9-3C1D-355B-EF2A-433884E4EDFB</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sales_qty" id="53B41057-DD58-016F-E54A-3E3211CC3EDF">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-21 10:51:16 UTC</createdTime>
+<generatorID>7C2E1FD1-01F2-B961-CB1B-40F54651DD21</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sales_amt" id="A5667E2B-1053-A1AA-32D0-E47FF435D734">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-21 10:51:16 UTC</createdTime>
+<generatorID>C60D0DE8-D45F-CF25-DF89-5A4EB8AEA1F7</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sales_ID" id="7DE885EB-AC07-39BF-614C-81A8DE4F7091">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-21 10:51:16 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B1B78BC-8DD3-95EA-D944-34366F44D188" name="sales_PK">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-21 10:51:16 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="7DE885EB-AC07-39BF-614C-81A8DE4F7091"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

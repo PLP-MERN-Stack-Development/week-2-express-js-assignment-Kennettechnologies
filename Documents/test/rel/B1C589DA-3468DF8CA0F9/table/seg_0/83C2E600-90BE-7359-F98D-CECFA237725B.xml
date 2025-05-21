@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83C2E600-90BE-7359-F98D-CECFA237725B" name="Relation_5">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-21 10:51:16 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="customer_customer_ID" id="25A80859-506F-4B30-8803-3289785A8596">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-21 10:51:16 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6D48240-7BCB-6D22-8035-3D169E637694" referredColumn="C1FDD13A-376F-0F1A-117F-D334836EE0B9"/>
+</associations>
+</Column>
+<Column name="sales_sales_ID" id="3B4E355C-806A-C90F-D639-60D5B510E527">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-21 10:51:16 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F8D3984-F61B-BA56-8467-04F83B2C960B" referredColumn="7DE885EB-AC07-39BF-614C-81A8DE4F7091"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E0BCB82-1400-07D9-F4AB-C7DB35341120" name="Relation_5_PK">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-21 10:51:16 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25A80859-506F-4B30-8803-3289785A8596"/>
+<colUsage columnID="3B4E355C-806A-C90F-D639-60D5B510E527"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB1D9409-FF37-61F5-21A6-377E8E89BC1B" name="Relation_5_customer_FK">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-21 10:51:16 UTC</createdTime>
+<generatorID>AEA11A05-DEC0-C4F2-E811-951A1A53E940</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25A80859-506F-4B30-8803-3289785A8596"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="751E1E49-DDA9-BFC8-9F84-3766FCB7664E" name="Relation_5_sales_FK">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-21 10:51:16 UTC</createdTime>
+<generatorID>AEA11A05-DEC0-C4F2-E811-951A1A53E940</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B4E355C-806A-C90F-D639-60D5B510E527"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
