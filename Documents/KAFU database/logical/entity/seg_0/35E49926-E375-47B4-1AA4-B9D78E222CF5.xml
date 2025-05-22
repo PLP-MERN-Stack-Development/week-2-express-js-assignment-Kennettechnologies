@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35E49926-E375-47B4-1AA4-B9D78E222CF5" name="User">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:26:50 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<engineerTo>
+<item key="01027CD6-2742-B2B8-ADAC-B442BE12BBBB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UserID" id="76C1CF10-BCF2-5CE4-C460-BF89422B3D23">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:26:59 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<engineerTo>
+<item key="01027CD6-2742-B2B8-ADAC-B442BE12BBBB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="601A157A-CDE9-A09D-98C8-8590045B0DB2">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:27:16 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<engineerTo>
+<item key="01027CD6-2742-B2B8-ADAC-B442BE12BBBB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="394A5376-B3A6-FB49-B0E0-C960754C3AED">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:27:47 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<engineerTo>
+<item key="01027CD6-2742-B2B8-ADAC-B442BE12BBBB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Role" id="9885A233-01BD-2E2A-A286-D8ED3325854A">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:28:28 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<engineerTo>
+<item key="01027CD6-2742-B2B8-ADAC-B442BE12BBBB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E307154B-7E03-1D97-A8BE-1E80B033C860" name="User PK">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:56:33 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<engineerTo>
+<item key="01027CD6-2742-B2B8-ADAC-B442BE12BBBB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5ADA70A8-BF47-1583-F04E-1CB7CCC8C53D</attributeRef>
+<attributeRef>084D4C1C-9A67-861A-62D2-1527722FA0BE</attributeRef>
+<attributeRef>7F2998A9-B40C-C9E8-198E-CA91DE0BFD09</attributeRef>
+<attributeRef>76C1CF10-BCF2-5CE4-C460-BF89422B3D23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

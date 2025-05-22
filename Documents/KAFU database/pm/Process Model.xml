@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="E432FF05-3D4C-9502-2CC1-ECE95D5DF50C">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:11:29 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

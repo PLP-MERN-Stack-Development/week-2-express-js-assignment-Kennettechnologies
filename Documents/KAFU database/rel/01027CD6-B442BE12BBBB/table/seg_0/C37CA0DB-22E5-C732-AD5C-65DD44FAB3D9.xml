@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C37CA0DB-22E5-C732-AD5C-65DD44FAB3D9" name="Transaction">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>E3301045-8229-98A0-B386-2EF574DA9E38</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TransactionID" id="EA78F791-6C71-D402-B5F1-24685CF393F1">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>33F56F43-6B1F-0A44-EB23-893FD6A873A3</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AssetID" id="396F153C-B957-6CDA-C1EB-11C8F2DC8D98">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>8A2705E6-87EA-44B7-08A6-ECA00DD70AFF</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserID" id="7D81F011-1613-9611-8F32-4B472E500C23">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>A3AA0DA8-A159-665E-ADDD-0C072E01D5DB</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TransactionType" id="BE40EDD8-3EC1-41DB-9AD6-A4F13572090C">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>05B9721A-69EA-8BDF-448A-50593DE7D869</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TransactionDate" id="04240229-855D-35DE-B966-7A22536D0319">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>05B6D0AC-8FD7-D1C4-69B0-7ED6165B98F1</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DueDate" id="A72C69C6-733D-2520-60F4-5014C2E0489D">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>E36505E4-DC86-BDDE-6F73-2C7ADE11D24D</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Asset_Asset_ID" id="3699FA23-87A3-1BE6-241F-91A8A10F077D">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_User_ID" id="800A690D-B5D1-0A01-EA8D-2CE7A5C0E99E">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AsssetID" id="83C52CE5-78EA-694D-22E9-3F40711D5FB9">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:57:59 UTC</createdTime>
+<generatorID>CCD579D8-7CC8-ACF0-340E-4D5B5A13D78A</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CD15EEE-8DE4-4C37-4251-B6E4B1DCBEBF" referredColumn="0854D3AC-70A6-111B-B8DD-86F8E336FE31"/>
+</associations>
+</Column>
+<Column name="AsssetID1" id="1AF865BE-BA8F-BA7C-281B-3620D0CC280D">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:57:59 UTC</createdTime>
+<generatorID>529EB6CE-7BAD-EB03-5619-E031B7032266</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LocationID" id="B3E11815-54A6-0ADD-6362-8A7C14EE6DC3">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:57:59 UTC</createdTime>
+<generatorID>9BA27FBE-7DE1-4771-9BC0-75B6E8138251</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DepartmentID" id="1CC7EB3E-AE87-9578-1C4F-033EDD7B79B2">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:57:59 UTC</createdTime>
+<generatorID>F90BAFF3-C78D-95DF-3338-27F5C3535AB9</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserID1" id="FF859434-13F6-A8ED-6EDE-AF15C13C3647">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:57:59 UTC</createdTime>
+<generatorID>3DA43F75-CCFE-C83E-244D-5D15FA7476D0</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97C1F23C-5A12-36FA-A13C-B3F1C8AFA0F3" referredColumn="8889E79E-70E1-50F5-5289-AA8DDF4F3358"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBCDD208-133C-8721-0B35-29D6F3C804B0" name="Transaction_PK">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:57:59 UTC</createdTime>
+<generatorID>2EA06B05-2B5C-4F04-50B3-8C4856899F35</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83C52CE5-78EA-694D-22E9-3F40711D5FB9"/>
+<colUsage columnID="1AF865BE-BA8F-BA7C-281B-3620D0CC280D"/>
+<colUsage columnID="B3E11815-54A6-0ADD-6362-8A7C14EE6DC3"/>
+<colUsage columnID="1CC7EB3E-AE87-9578-1C4F-033EDD7B79B2"/>
+<colUsage columnID="FF859434-13F6-A8ED-6EDE-AF15C13C3647"/>
+<colUsage columnID="EA78F791-6C71-D402-B5F1-24685CF393F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E20DDE9-70CF-C57D-31ED-5DDA04A4B4E6" name="Transaction_Asset_FK">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>49CCED08-77A7-31EB-6775-A2B0E9E59E36</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83C52CE5-78EA-694D-22E9-3F40711D5FB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D85CFEA0-444F-3268-EC75-8D961B4438F4" name="Transaction_User_FK">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>B6F91617-F39D-FC9A-1D9B-1CAFB4BAF58C</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF859434-13F6-A8ED-6EDE-AF15C13C3647"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

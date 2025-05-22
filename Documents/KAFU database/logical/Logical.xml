@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A03CC4D3-AC5A-5309-C0CA-A4A30ADD4C69" mainViewID="2E5C68A4-52FB-3929-4F99-E2211AB6292A">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:11:28 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

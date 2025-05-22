@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC2C0774-D298-8DCD-38D2-E2B88C1B7895" name="Campus">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>C17BFF3D-7E73-C219-F987-98F403BC2C6C</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CampusID" id="F45DDCBC-7926-A16B-89C9-F8A7BA53EF5F">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>5225B21D-5A87-8FEC-B68D-8CA247B66399</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CampusName" id="422C89E0-B7AE-1CA6-1AD7-879775A29C63">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>8E22E129-43BF-DE91-B138-FB2A18854248</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Department_Department_ID" id="D130FD61-F943-F215-BCDB-4069465FC458">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DepartmentID" id="FF99897B-F0CC-AEA7-8440-6947112D32BA">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:57:59 UTC</createdTime>
+<generatorID>5510054A-CE00-422B-16F3-A8B7550EF9C3</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F0804AB-DF43-2EDB-BE20-B22096821C81" referredColumn="469F94A9-2D41-EC35-D2A1-2318BE2D2343"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF87CAFB-9026-251C-FF27-467EAD2BF26D" name="Campus_PK">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:57:59 UTC</createdTime>
+<generatorID>11432F78-C6B9-2572-8ADD-408444841B39</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F45DDCBC-7926-A16B-89C9-F8A7BA53EF5F"/>
+<colUsage columnID="FF99897B-F0CC-AEA7-8440-6947112D32BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77F13297-D000-8100-ECD1-23EEEB324323" name="Campus_Department_FK">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>7E64F1AB-341E-9D9C-E29E-F141F19DDBFD</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF99897B-F0CC-AEA7-8440-6947112D32BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D017A687-EB6E-ABB7-95C5-40C49AE7977B" name="Asset">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>B853C675-00B5-0F5A-36AE-1CDED8C6531B</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AsssetID" id="0854D3AC-70A6-111B-B8DD-86F8E336FE31">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>01BDEC8B-64A5-B8E4-15BC-E2B488F44EBD</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="06CD55FD-6559-F305-633B-B82C49C28FE9">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>262AA3BE-CAF1-B94E-54DB-2F0A5D3F7ACB</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="52E0F72B-1D6C-29CE-BD1B-940860522F9B">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>07EBEED2-14DE-9013-B27E-94D4AE6CD2F0</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Category" id="D057E583-6D61-8B47-AE48-DBFBC8917316">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>35010DC9-5546-5B2B-1C8A-0B1CCEF0A5A2</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DepartmentID" id="08680ABB-3EE9-4A31-046F-A9C35EC55235">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>C6307021-DC1C-23BC-FE39-A04B137004F9</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LocationID" id="273780EC-DBDE-322E-F8D7-0A7D5731ACC9">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>D5559F82-58E5-BE54-EFFB-D3E02C7C636A</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PurchaseDate" id="10EE4E3A-2155-39AE-763C-3BD8B4469B60">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>A3B02047-422D-3A9B-CE67-DB311B598760</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="DAA10299-00E0-6547-3B21-2434387569A0">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>A41A650A-90CB-6136-9F7D-ED34A44CFC5B</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Asset_ID" id="02D990DF-9A1D-6637-E83F-5BD2DC45A637">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8F2C381-BD12-A85B-1462-8FA843878EDB" name="Asset_PK">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="02D990DF-9A1D-6637-E83F-5BD2DC45A637"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCCBBF36-4129-6026-C80C-8B0DE93DFC82" name="Asset_AsssetID_UN">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:57:59 UTC</createdTime>
+<generatorID>D5387F8F-F820-FDE9-3284-B220D0DFB6BE</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0854D3AC-70A6-111B-B8DD-86F8E336FE31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

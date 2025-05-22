@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4E754A96-04AD-C2DB-75E5-E2B101FAA3A9" containerWithKeyObject="725FD5E9-610F-F6E8-FED9-A22FA6926BDF" localFKIndex="BB87FA23-DD88-6738-4B10-EFEC5AF4D4AF" name="User_Location_FK">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>28CC3CDB-B89B-0FC3-E5B4-6BD5B6EFFE88</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<referredTableLongName>Location</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>66B4D774-F3AE-3FE1-1E5A-F1FE47097ABC</referredTableID>
+<keyObject>0FDDCB22-A7DE-30A8-FEBC-EA32614671F7</keyObject>
+<referredKeyID>0FDDCB22-A7DE-30A8-FEBC-EA32614671F7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Location_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

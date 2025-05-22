@@ -1,0 +1,210 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66B4D774-F3AE-3FE1-1E5A-F1FE47097ABC" name="Location">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>55BCC324-2229-BF98-588D-351FC01336B7</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LocationID" id="FF7F7695-4D59-B186-B9BE-10D767CAB648">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>801CF56E-3EB0-E664-3D88-1B6C00696BEB</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LocationName" id="FE258E99-9906-82DE-468E-4AE5175FA5BE">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>DAD62375-FDE3-BE68-9212-4EC43478F0A1</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CampusID" id="73B9EE9E-9B28-BC69-F2DA-243067BFAE39">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>DE0CB80B-899E-9BBB-CA92-4ACF8BB8CCC8</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Location_ID" id="2EED9BFB-786C-CF52-E032-1603F9FE675A">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Department_Department_ID" id="30E73CED-90CB-987D-FAA2-B4F5BB4A8611">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Asset_Asset_ID" id="9496846A-4BD5-DD88-9DC6-E1E9AC35B68E">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StockLevel_StockLevel_ID" id="1D84AD02-52E5-461E-DABC-5E0C7E020DBC">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AsssetID" id="DAC816BF-8050-527D-BCF9-13A0D68378B3">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:57:59 UTC</createdTime>
+<generatorID>FD0867C1-EFA9-481C-0F55-5E38B64E2545</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9AE6C8E-4C10-2E3F-30AB-6C8772E39AEA" referredColumn="0854D3AC-70A6-111B-B8DD-86F8E336FE31"/>
+</associations>
+</Column>
+<Column name="DepartmentID" id="18CC6055-0924-32B4-AC08-1140200D7203">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:57:59 UTC</createdTime>
+<generatorID>0FEB591E-1F26-C759-389A-B77A9BBBD0F8</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80A1CDFB-27C7-7361-7E0A-C16EC4253F4F" referredColumn="469F94A9-2D41-EC35-D2A1-2318BE2D2343"/>
+</associations>
+</Column>
+<Column name="StockLevel_AsssetID" id="ABCA42B3-4A9B-1429-E1C1-1D52ABC83F05">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:57:59 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19133F7A-D624-13A5-5BDA-31E669DE8739" referredColumn="4938C359-21A9-49A1-3676-61F314226457"/>
+</associations>
+</Column>
+<Column name="StockLevel_StockID" id="09FE3849-8266-94FD-E1B8-98B462AE9396">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:57:59 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19133F7A-D624-13A5-5BDA-31E669DE8739" referredColumn="CEAB0CC3-180B-244A-8A65-951EF467A0D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0FDDCB22-A7DE-30A8-FEBC-EA32614671F7" name="Location_PK">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="2EED9BFB-786C-CF52-E032-1603F9FE675A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB3841CE-F8D1-C3BE-72FA-C2C6BBBCE1A5" name="Location_AsssetID_LocationID_DepartmentID_UN">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:57:59 UTC</createdTime>
+<generatorID>8F2DB682-700F-03E8-BAD8-AAA15A43EBD3</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAC816BF-8050-527D-BCF9-13A0D68378B3"/>
+<colUsage columnID="FF7F7695-4D59-B186-B9BE-10D767CAB648"/>
+<colUsage columnID="18CC6055-0924-32B4-AC08-1140200D7203"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60852F60-C74E-2B19-51A4-605BECA1EF96" name="Location_Department_FK">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>2FEA9822-529F-79C8-B227-0F88D95BACE3</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18CC6055-0924-32B4-AC08-1140200D7203"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1DD9286-8F6C-FB82-F0A1-BD5A4D8F82B3" name="Location_Asset_FK">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>24ECB14B-C762-A321-F2D4-8141574F8BF4</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAC816BF-8050-527D-BCF9-13A0D68378B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC89EEF7-A8A0-4356-17C3-CD0275F606B8" name="Location_StockLevel_FK">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>4EC915D3-BF81-F03D-D3F3-D50EC433149E</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABCA42B3-4A9B-1429-E1C1-1D52ABC83F05"/>
+<colUsage columnID="09FE3849-8266-94FD-E1B8-98B462AE9396"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

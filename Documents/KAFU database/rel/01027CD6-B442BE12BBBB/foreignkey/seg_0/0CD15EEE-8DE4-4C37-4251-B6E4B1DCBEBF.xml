@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0CD15EEE-8DE4-4C37-4251-B6E4B1DCBEBF" containerWithKeyObject="C37CA0DB-22E5-C732-AD5C-65DD44FAB3D9" localFKIndex="5E20DDE9-70CF-C57D-31ED-5DDA04A4B4E6" name="Transaction_Asset_FK">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:50:40 UTC</createdTime>
+<generatorID>49CCED08-77A7-31EB-6775-A2B0E9E59E36</generatorID>
+<ownerDesignName>KAFU database</ownerDesignName>
+<referredTableLongName>Asset</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D017A687-EB6E-ABB7-95C5-40C49AE7977B</referredTableID>
+<keyObject>F8F2C381-BD12-A85B-1462-8FA843878EDB</keyObject>
+<referredKeyID>F8F2C381-BD12-A85B-1462-8FA843878EDB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Asset_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="B6F91617-F39D-FC9A-1D9B-1CAFB4BAF58C">
+<createdBy>USER</createdBy>
+<createdTime>2025-05-22 07:38:57 UTC</createdTime>
+<ownerDesignName>KAFU database</ownerDesignName>
+<engineerTo>
+<item key="01027CD6-2742-B2B8-ADAC-B442BE12BBBB" value="true"/>
+</engineerTo>
+<sourcePk>E307154B-7E03-1D97-A8BE-1E80B033C860</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>35E49926-E375-47B4-1AA4-B9D78E222CF5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E3301045-8229-98A0-B386-2EF574DA9E38</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
