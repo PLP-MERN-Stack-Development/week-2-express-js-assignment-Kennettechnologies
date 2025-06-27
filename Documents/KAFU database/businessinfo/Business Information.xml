@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="BE78D336-741C-1A1E-0EC1-4E8DEA423592">
-<createdBy>USER</createdBy>
-<createdTime>2025-05-22 07:11:29 UTC</createdTime>
-<ownerDesignName>KAFU database</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>

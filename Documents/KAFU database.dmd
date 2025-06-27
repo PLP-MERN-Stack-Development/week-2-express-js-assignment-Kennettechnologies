@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="KAFU database" id="C013FC33-51EC-9BF4-BBF0-2D217DEAC352" version="3.5">
-<createdBy>USER</createdBy>
-<createdTime>2025-05-22 07:11:28 UTC</createdTime>
-<ownerDesignName>KAFU database</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>C013FC33-51EC-9BF4-BBF0-2D217DEAC352</designId>
-</OSDM_Design>
